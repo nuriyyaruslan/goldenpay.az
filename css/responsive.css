@@ -1,0 +1,483 @@
+/*for mobile*/
+@media screen and (max-width:479px){
+    .header-left{
+        padding-left:9px !important;
+    }
+    .header-right{
+        padding-right:9px !important;
+    }
+    .triangle-menu::after{
+        right:16px !important;
+    }
+    .menu-icon img{
+        top:2px !important;
+    }
+    .mdl-pay .modal-content{
+        padding:24px 0 !important;
+    }
+    .pay-item p{
+        font-size: 14px;
+    }
+    .pay-carousel{
+        margin-bottom:0 !important;
+    }
+    .pay-carousel .owl-nav .owl-prev, .pay-carousel .owl-nav .owl-next{
+        display: inline-flex !important;
+        margin-bottom:20px !important;
+    }
+    .p-lr a{
+        padding: 4px 2px;
+        margin-left:20px;
+    }
+    .p-lf{
+        padding-left:22px !important;
+        padding-right:0 !important;
+    }
+    .p-lr{
+        padding-left:0 !important;
+        padding-right:22px !important;
+    }
+    .p-lr a i {
+        font-size: 19px;
+        top: 2px;
+    }
+    .item-title{
+        font-size: 14px;
+    }
+    .home-items{
+        padding-top:100px !important;
+    }
+    .slides{
+        height: 120px !important;
+    }
+    .home-slider .indicators{
+        top:124px;
+        height: 0;
+    }
+    .cnt_l{
+        margin-top:40px;
+    }
+    .cnt_head{
+        margin-bottom:20px;
+    }
+    .social_cnt ul{
+        margin-top:36px;
+    }
+    .cnt_r{
+        margin-top:24px;
+        height: 300px;
+    }
+    .cnt_txt span{
+        font-size: 16px;
+    }
+    .client-right a,.client-item a{
+        font-size: 12px;
+    }
+    .client-item a{
+        height: 60px !important;
+        padding-top:20px !important;
+    }
+    .client-right{
+        margin-top:42px;
+    }
+    .connect-utilities{
+        margin-left:-10px;
+        margin-right:-10px;
+    }
+    .prod_cl_head{
+        font-size: 16px;
+    }
+    .ut-con a p{
+        font-size:12px;
+    }
+    .prod_cell a{
+        padding:24px;
+        height: 193px;
+    }
+
+    .owl-prev, .owl-next,.owl-dot{
+        display: none !important;
+    }
+    .pa-item a{
+        width:110px;
+        height:110px;
+        margin-top:16px;
+    }
+    .milli-txt{
+        padding-left:0 !important;
+    }
+    .partner-item{
+        margin-bottom:28px;
+    }
+    .sec-b,.con-hd{
+        font-size:16px;
+    }
+    .sec-txt,.con-txt{
+        font-size:14px;
+    }
+    .about-social-list{
+        margin-left:-20px;
+        margin-right:-20px;
+    }
+    .sec-head-txt{
+        padding-top:16px;
+    }
+    .sp-head{
+        border-bottom:1px solid rgba(0, 0, 0, 0.12);
+    }
+    .sec-img{
+        margin-top:-36px;
+        margin-bottom:16px;
+        padding-left:11px !important;
+    }
+    .content-about, .gp-content{
+        padding-left:10px !important;
+        padding-right:10px !important;
+    }
+    .question-head,.faq-answer span{
+        font-size:14px;
+    }
+    .tabs-faq{
+        border-bottom:1px solid rgba(0, 0, 0, 0.12);
+        margin-left:-20px;
+        margin-right:-20px;
+    }
+    .faq-btn{
+        border-radius:0;
+        border: none !important;
+        margin-top:0;
+    }
+    .faq-btn:hover,.faq-btn:active,.faq-btn:focus,.faq-btn.active{
+        border-bottom: 1px solid #f3bd11 !important;
+        background-color: #fff;
+    }
+    .left-tab-head{
+        text-align: center;
+    }
+    .img-cell-cont{
+        height:160px;
+    }
+    .about-text,.company-list li span{
+        font-size:14px !important;
+        color:#000;
+    }
+    .header-right li:first-child{
+        margin-right:10px;
+    }
+    .header-right li{
+        border-right:1px solid #000;
+        padding-top:4px;
+    }
+    .header-right li:last-child{
+        border:none;
+    }
+    .header-right li:nth-child(2){
+        margin-right:16px;
+    }
+    .logo{
+        width:54px;
+        height:32px;
+    }
+    .lang-mobile .select2-container--default .select2-selection--single .select2-selection__rendered,.header-left li .select2 .select2-selection__rendered, .menu span{
+        font-size:12px;
+    }
+    .select2-container .select2-selection--single .select2-selection__rendered{
+        padding-left:0 !important;
+    }
+    .menu-icon img{
+        width:16px;
+        height:16px;
+    }
+    .call-icon img{
+        height:16px;
+        right:2px;
+    }
+
+    .call-icon img{
+        top:1px;
+    }
+    .header-right{
+        padding-top:6px;
+    }
+    .select2-results__options li{
+        padding-left:18px !important;
+    }
+    .about-btn_s a{
+        font-size: 14px !important;
+        height:36px;
+    }
+    .gp-head,.gp-head-cont{
+        font-size:18px;
+    }
+    .gp-head:after,.gp-head-cont:after{
+        width:52px;
+    }
+}
+@media screen and (min-width:769px){
+    .best-clients{
+        border:1px solid #ccc;
+        border-radius: 10px;
+    }
+    .cont_left{
+        max-width:54% !important;
+    }
+}
+/*for tablet*/
+@media screen and (max-width:768px){
+    .triangle-menu::after{
+        right:20px;
+    }
+    .menu-icon img{
+        top:4px;
+    }
+    .mob_soc i{
+        font-size: 16px !important;
+        margin-right:10px;
+    }
+    .mob-menu li a{
+        font-size: 22px;
+        font-family: RobotoBold;
+        color:#000;
+    }
+    .mob-menu li{
+        margin-top:6px;
+    }
+    .mob-menu{
+       padding-top:20px;
+    }
+    .menu-tabs li a{
+        font-size:12px;
+        font-family: RobotoSlabBold;
+        color:#fff !important;
+    }
+    .menu-tabs{
+        background: transparent;
+        max-width:480px !important;
+    }
+    .menu-tabs .indicator{
+        background: #fff;
+        height: 1px;
+    }
+    .menu-full{
+        height: 100vh;
+        background: #f2bd12;
+    }
+    .client-item a{
+        height: 80px;
+        padding-top:26px;
+    }
+    .connect_btn a{
+        font-size:18px;
+    }
+    .board-cover{
+        padding-left:4px !important;
+        padding-right:4px !important;
+    }
+    .img-container{
+        padding-right: 6px !important;
+        padding-left: 6px !important;}
+
+    .content-about, .gp-content{
+        padding-left:13px;
+        padding-right:13px;
+    }
+    .about-btn_s{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    .about-btn_s a:hover, .about-btn_s a.active, .about-btn_s a:focus{
+        border-bottom:1px solid #f3bd11;
+        background-color: #fff;
+    }
+    .about-btn_s a{
+        background-color: #fff;
+        border-radius: 0;
+    }
+    .about-btn_s{
+          margin-top:0;
+      }
+    .content-about,.gp-content{
+        padding-top:20px;
+    }
+    .about-cell-head{
+        font-size:16px;
+        padding-left:6px;
+    }
+    .milli-txt{
+        padding-left:16px;
+    }
+}
+
+/*for tablet pro*/
+@media screen and (max-width:1024px){
+    .connect-menu{
+        display: none;
+    }
+    .connect-right{
+        float: right !important;
+    }
+    .mdl-pay{
+        width:66%;
+    }
+}
+
+/*for desktop*/
+@media screen and (min-width:1200px){
+    .mdl-pay{
+        width:1000px;
+    }
+    .back-pay-btn a{
+        margin-top:16px;
+    }
+}
+
+@media screen and (min-width:479px){
+    .lang-mobile{
+        display: none !important;
+    }
+    .menu-height{
+        margin-top:6px;
+        margin-bottom:6px;
+    }
+    .tabs-faq{
+        float: right !important;
+    }
+    .faq-btn{
+        margin-left:8px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .about-header{
+        border-bottom:1px solid rgba(0, 0, 0, 0.08);
+    }
+    .connect-utilities{
+        margin-left:-40px;
+        margin-right:-40px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .slider{
+        top:32% !important;
+    }
+    .hm-cell-item {
+        padding-top: 174px;
+    }
+}
+@media screen and (min-width:768px){
+    .con-right{
+        margin-left:20px;
+    }
+    .about-btn_s a{
+        padding:6px 50px;
+    }
+    .connect_btn .about-item{
+        padding:6px 24px;
+        margin-left:-3px;
+        margin-right:-3px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .gp-new-col{
+        width:32%;
+    }
+    .gp-cover .gp-new-col:nth-child(4),.gp-cover .gp-new-col:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width:320px){
+    .faq-btn{
+        padding-left:12px;
+        padding-right:12px;
+    }
+    .gp-head{
+        font-size:16px;
+    }
+    .p-lr a{
+        margin-left:0;
+    }
+}
+@media screen and (max-width:360px){
+    .menu-tabs li a{
+        font-size:11px !important;
+    }
+}
+@media screen and (min-width:479px) and (max-width:768px){
+    .pa-item a{
+        width:110px;
+        height:110px;
+    }
+}
+@media screen and (max-width:390px){
+    .owl-item{
+        margin-right:16px;
+    }
+    .owl-carousel{
+        margin-bottom:-110px;
+    }
+}
+@media screen and (max-width:330px){
+    .owl-item{
+        margin-right:20px;
+    }
+}
+@media screen and (max-width:600px){
+    .connect_btn{
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .connect_btn::-webkit-scrollbar {
+        width: 0;
+        height:0;
+    }
+    .connect_btn::-webkit-scrollbar-track {
+        -webkit-box-shadow:#fff;
+    }
+
+    .connect_btn::-webkit-scrollbar-thumb {
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width:990px){
+    .home-items{
+        padding-top:130px;
+    }
+    .home-item{
+        margin-top:24px;
+    }
+    .home-slider{
+        position: relative;
+        top:68px;
+    }
+    .slides li img,.slides{
+        border-radius: 0 !important;
+    }
+    .mdl-pay{
+        border-radius: 0;
+        top:0 !important;
+        box-shadow: none;
+        width:100% !important;
+        height:100%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1024px) {
+    .home-mob-footer{
+        margin-top:100px;
+    }
+}
+@media screen and (min-width:990px)  and (max-width:1024px){
+    .first-col{
+        width:17% !important;
+    }
+    .last-col{
+        width:15% !important;
+        padding-right: 0 !important;
+    }
+    .item-title{
+        font-size: 20px;
+    }
+    .gp-col{
+        width:13.26%;
+    }
+}

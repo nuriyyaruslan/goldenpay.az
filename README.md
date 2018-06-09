@@ -1,0 +1,2 @@
+# goldenpay.az
+# goldenpay.az
